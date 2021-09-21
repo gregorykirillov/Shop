@@ -4,64 +4,82 @@
             "id": 0,
             "imageUrl": "img/iphone12promax.jpg",
             "name": "iPhone 12 Pro Max",
-            "price": "90 990",
-            "options": "64gb"
+            "price": 90990,
+            "options": ["64gb"],
+            "category": 0,
+            "color": "Green"
         },
         {
             "id": 1,
             "imageUrl": "img/iphone12pro.jpg",
             "name": "iPhone 12 Pro",
-            "price": "86 990",
-            "options": "64gb"
+            "price": 86990,
+            "options": ["128gb", "Б/У"],
+            "category": 1,
+            "color": "White"
         },
         {
             "id": 2,
             "imageUrl": "img/iphone12mini.jpg",
             "name": "iPhone 12 mini",
-            "price": "57 990",
-            "options": "64gb"
+            "price": 57990,
+            "options": ["64gb"],
+            "category": 0,
+            "color": "Green"
         },
         {
             "id": 3,
             "imageUrl": "img/iphonese2020.jpg",
             "name": "iPhone SE 2020",
-            "price": "33 990",
-            "options": "64gb"
+            "price": 33990,
+            "options": ["256gb"],
+            "category": 0,
+            "color": "Red"
         },
         {
             "id": 4,
             "imageUrl": "img/iphone11promax.jpg",
             "name": "iPhone 11 Pro Max",
-            "price": "86 990",
-            "options": "64gb"
+            "price": 86990,
+            "options": ["512gb"],
+            "category": 0,
+            "color": "Green"
         },
         {
             "id": 5,
             "imageUrl": "img/iphone11pro.jpg",
             "name": "iPhone 11 Pro",
-            "price": "83 990",
-            "options": "64gb"
+            "price": 83990,
+            "options": ["64gb"],
+            "category": 0,
+            "color": "Gold"
         },
         {
             "id": 6,
             "imageUrl": "img/iphone11.jpg",
             "name": "iPhone 11",
-            "price": "48 990",
-            "options": "64gb"
+            "price": 48990,
+            "options": ["64gb"],
+            "category": 0,
+            "color": "Black"
         },
         {
             "id": 7,
             "imageUrl": "img/iphonexs.jpg",
             "name": "iPhone XS",
-            "price": "37 990",
-            "options": "64gb"
+            "price": 37990,
+            "options": ["64gb"],
+            "category": 0,
+            "color": "White"
         },
         {
             "id": 8,
             "imageUrl": "img/iphonexr.jpg",
             "name": "iPhone XR",
-            "price": "42 990",
-            "options": "64gb"
+            "price": 42990,
+            "options": ["64gb"],
+            "category": 0,
+            "color": "White"
         }
     ]
 }
