@@ -2,8 +2,10 @@ import React from 'react';
 import logo from '../assets/img/logo.svg';
 import Button from './Button';
 import { Link } from 'react-router-dom'
+import { useSelector } from 'react-redux';
 
 function Header() {
+    const { totalCount } = useSelector(({ cart }) => cart);
     return (
         <div className="header">
             <div className="container">
@@ -11,13 +13,13 @@ function Header() {
                     <div className="header__logo">
                         <img src={logo} alt="" />
                         <div>
-                            <h1>Shop</h1>
-                            <p>Description</p>
+                            <h1>Gpoint Shop</h1>
+                            <p>The best shop ever</p>
                         </div>
                     </div>
                 </Link>
                 <Link to="/cart">
-                    <Button>
+                    <Button className="cart-button">
                         <span>Корзина</span>
                         <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
@@ -34,6 +36,7 @@ function Header() {
                                 stroke="white" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
                             </path>
                         </svg>
+                        <span>{totalCount == 0 || totalCount}</span>
                     </Button>
                 </Link>
             </div>
